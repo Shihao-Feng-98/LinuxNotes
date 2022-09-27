@@ -26,3 +26,8 @@ cd build    # enter build folder
 cmake ..    # compile CMakeLists.txt and generate the mid files
 make        # generate executable file
 ```
+
+## Debug C++ in VSCode
+`launch.json` see [launch.json](https://github.com/Shihao-Feng-98/Linux_notes/blob/main/cpp_vscode/launch.json)
+
+`tasks.json` see [tasks.jason](https://github.com/Shihao-Feng-98/Linux_notes/blob/main/cpp_vscode/tasks.json)
