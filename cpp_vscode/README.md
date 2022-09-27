@@ -17,7 +17,12 @@ g++ main.cpp src/source1.cpp src/source2.cpp -Iinclude -o main
 
 ### Write `CMakeLists.txt` file
 
-The minmum cmake file, see [minimum_project](https://github.com/Shihao-Feng-98/Linux_notes/blob/main/cpp_vscode/CMakeLists_mini.txt)
-
 multi-directory project compile, see [multi-directory_project](https://github.com/Shihao-Feng-98/Linux_notes/blob/main/cpp_vscode/CMakeLists.txt)
 
+### Make
+```
+mkdir build # create a build folder in the current directory
+cd build    # enter build folder
+cmake ..    # compile CMakeLists.txt and generate the mid files
+make        # generate executable file
+```
