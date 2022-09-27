@@ -1,0 +1,37 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build" // 相当于cd build
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake", // 相当于cmake ..
+            "args": [
+                ".."
+            ]
+        },
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make", // 相当于 make
+            "args": [
+
+            ]
+        },
+        {
+            "label": "Build", // 相当于执行前面两个步骤 1.cmake ..       2.make
+            "dependsOrder": "sequence", //按列出的顺序执行依赖项
+            "dependsOn":[
+                "cmake",
+                "make"
+            ]
+        }
+    ]
+}

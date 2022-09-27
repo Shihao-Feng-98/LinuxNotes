@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0) # 指明CMAKE最小版本要求
+
+project(PROJECTNAME) # 定义工程名称
+
+add_executable(main_cmake main.cpp) # 生成可执行文件
