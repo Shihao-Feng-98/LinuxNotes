@@ -25,12 +25,12 @@ ifconfig
 
 ## Log in server via ssh
 ```
-ssh feng_shihao@192.168.5.155 # user_name@ip_address
-exit # log out ssh
+ssh user_name@ip_address
+exit
 ```
 
 ## Transfer files
 ```
-scp local_file remote_user_name@remote_ip:remote_folder   # copy file
-scp -r local_folder remote_user_name@remote_ip:remote_folder # copy folder
+scp local_file remote_user_name@remote_ip:remote_folder   
+scp -r local_folder remote_user_name@remote_ip:remote_folder
 ```
