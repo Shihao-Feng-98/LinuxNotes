@@ -52,15 +52,16 @@ problem:
 *** you need to run "make before "make install".
 ```
 
-solution: before `make modules_install`, run
+solution: 
+
+before `make modules_install`, run
 ```
 make bzImage
 ```
-if outpu zstd mssing, run
+if zstd mssing, run
 ```
 make install zstd
 ```
-
 
 
 ## Ubuntu 18.04
