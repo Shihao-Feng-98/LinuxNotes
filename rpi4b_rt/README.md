@@ -52,12 +52,12 @@ sudo cp arch/arm/boot/dts/overlays/README /boot/overlays/
 sudo cp arch/arm/boot/zImage /boot/$KERNEL.img
 ```
 
-## Check
+## Check and test
 ```
 sudo reboot
 uname -a
 ```
-### RT kernel test
+
 ```
 sudo apt install rt-tests
 sudo cyclictest -t 5 -p 80 -n # 5 thread，priority 80
