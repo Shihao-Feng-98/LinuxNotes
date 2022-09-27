@@ -14,13 +14,23 @@ sudo apt install python3.x python3.x-dev python3.x-distutils
 
 if `add-apt-repository` hangs, run
 ```
-sudo gedit /etc/gai/conf
+sudo gedit /etc/gai.conf
 ```
 
 then comment the following line
 
 ```
-preccedence:ffff:0.0/96 100
+precedence:ffff:0.0/96 100
 ```
  
+## Install corresponding pip version
+```
+wget -O /tmp/get-pip.py https://bootstrap.pypa.io/pip/3.x/get-pip.py
+python3.x /tmp/get-pip.py
+```
+
+## Install modules in corresponding python version
+```
+pip3.x install xx
+```
 
