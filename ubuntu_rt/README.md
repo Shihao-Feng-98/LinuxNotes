@@ -45,6 +45,22 @@ sudo make install -j16
 sudo update-grub
 sudo reboot
 ```
+## Debug
+problem: 
+```
+*** Missing file: arch/x86/boot/bzImage
+*** you need to run "make before "make install".
+```
+
+solution: before `make modules_install`, run
+```
+make bzImage
+```
+if outpu zstd mssing, run
+```
+make install zstd
+```
+
 
 
 ## Ubuntu 18.04
