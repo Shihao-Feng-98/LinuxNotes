@@ -8,10 +8,16 @@ only main.cpp file
 g++ main.cpp -o main
 ```
 
-include head files (`include`) and source files (`src`)
+include head files `include` and source files `src`
 ```
 g++ main.cpp src/source1.cpp src/source2.cpp -Iinclude -o main
 ```
 
 ## CMake compile
-write `CMakeLists.txt` file, the minmum cmake file see 
+
+### Write `CMakeLists.txt` file
+
+The minmum cmake file, see [minimum_project](https://github.com/Shihao-Feng-98/Linux_notes/blob/main/cpp_vscode/CMakeLists_mini.txt)
+
+multi-directory project compile, see [multi-directory_project](https://github.com/Shihao-Feng-98/Linux_notes/blob/main/cpp_vscode/CMakeLists.txt)
+
