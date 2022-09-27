@@ -6,7 +6,7 @@
 
 ### Install some libs and tools
 ```
-sudo apt-get install libncurses-dev libssl-dev libelf-dev bison flex
+sudo apt install libncurses-dev libssl-dev libelf-dev bison flex
 ```
 ### Setup
 ```
@@ -69,8 +69,7 @@ Download [kernel](https://mirrors.tuna.tsinghua.edu.cn/kernel/v5.x/) and [rt-pat
 
 ### Install some libs and tools
 ```
-sudo apt install build-essential git libssl-dev libelf-dev
-sudo apt install flex bison
+sudo apt install build-essential git libssl-dev libelf-dev flex bison
 ```
 
 ### Setup
