@@ -22,3 +22,9 @@ check ip address
 ```
 ifconfig
 ```
+
+# Log in server via ssh
+```
+ssh feng_shihao@192.168.5.155 # user_name@ip_address
+exit # log out ssh
+```
