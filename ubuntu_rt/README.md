@@ -23,7 +23,7 @@ then
 
 3. `General Setup` -> `Kernel hacking` -> `Compile-time checks and compiler options` -> disable `Compile the kernel with debug info`
 
-4. `Processor type and features` -> `Timer freqyency` -> set `1000hz`
+4. `Processor type and features` -> `Timer frequency` -> set `1000hz`
 
 ```
 gedit .config
