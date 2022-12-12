@@ -74,8 +74,7 @@ sudo apt install build-essential git libssl-dev libelf-dev flex bison
 
 ### Setup
 ```
-xz -cd linux-5.4.19.tar.xz | tar xvf -
-cd linux-5.4.19
+xz -cd linux-5.4.19.tar.xz | tar xvf -cd linux-5.4.19
 xzcat ../patch-5.4.19-rt11.patch.xz | patch -p1
 ```
 
