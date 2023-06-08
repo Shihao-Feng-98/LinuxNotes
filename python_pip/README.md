@@ -17,7 +17,7 @@ if `add-apt-repository` hangs, run
 sudo gedit /etc/gai.conf
 ```
 
-then comment the following line
+then uncomment the following line
 
 ```
 precedence:ffff:0.0/96 100
