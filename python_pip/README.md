@@ -20,7 +20,7 @@ sudo gedit /etc/gai.conf
 then uncomment the following line
 
 ```
-precedence:ffff:0.0/96 100
+precedence::ffff:0.0/96 100
 ```
  
 ## Install corresponding version of pip
