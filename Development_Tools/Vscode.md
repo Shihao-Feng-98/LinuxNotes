@@ -22,7 +22,8 @@
 ## Markdown
 - Markdown All in One
 - Markdown PDF
-- Markdown Preview Github Styling
+- Markdown Preview Github Styling  
+[Markdown Tutorial](https://markdown.com.cn/intro.html)
 
 ## Git 
 - Git Graph

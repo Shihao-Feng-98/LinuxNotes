@@ -16,7 +16,7 @@ Divide a partition of > 60G in the position of the last disk
   - 75G, `logical partition`, `space starting position`, `for ext4 journaling filesystem`, `the mount point is "/"`
   - The rest of the partition, `logical partition`, `space starting position`, `for ext4 journaling filesystem`, `the mount point is "/home"`
   - Device for boot loader installation, select 500M EFI partition
-
+---
 
 ## 2. Dual disk
 ### 2.1 Create a memory partition in win

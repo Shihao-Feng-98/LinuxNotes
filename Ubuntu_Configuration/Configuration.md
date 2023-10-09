@@ -47,6 +47,11 @@ Download the deb package, run
 ```shell
 sudo apt install ./xxx.deb
 ```
+or install using apt
+```shell
+sudo apt install software_name
+```
+
 Some recommended software:
 - Keyboard input method
   - [Sogoupinyin](https://shurufa.sogou.com/linux)
@@ -58,9 +63,8 @@ Some recommended software:
   - Vim: `sudo apt install vim`
 - Media player
   - VLC: `sudo apt install vlc`
-- Screen shot
+- Screen shot and recorder
   - Flameshot: `sudo apt install flameshot`
-- Record screen:
   - SimpleScreenRecorder: `sudo apt install simplescreenrecorder`
 - Office software
   - [WPS](https://linux.wps.cn/)

@@ -1,2 +1,14 @@
 # C/C++
-安装g++，gdb，cmake，make等
+
+#### Install
+```shell
+sudo apt install build-essential
+```
+
+```shell
+sudo apt install gdb
+```
+
+```shell
+sudo apt install cmake
+```
