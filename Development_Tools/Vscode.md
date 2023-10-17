@@ -4,7 +4,6 @@
 - launch.json
 
 ## C/C++ Development 
-- C/C++
 - C/C++ Extension Pack
 - CMake
 - CMake Tools

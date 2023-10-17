@@ -7,27 +7,29 @@
     },
     "tasks": [
         {
+            // cmake ..
             "type": "shell",
             "label": "cmake",
-            "command": "cmake", // 相当于cmake ..
+            "command": "cmake",
             "args": [
                 ".."
             ]
         },
         {
+            // make
             "label": "make",
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "command": "make", // 相当于 make
+            "command": "make",
             "args": [
-
             ]
         },
         {
-            "label": "Build", // 相当于执行前面两个步骤 1.cmake ..       2.make
-            "dependsOrder": "sequence", //按列出的顺序执行依赖项
+            // cmake .. + make
+            "label": "Build", 
+            "dependsOrder": "sequence", 
             "dependsOn":[
                 "cmake",
                 "make"
