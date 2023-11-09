@@ -16,7 +16,7 @@
 - Pylance
 - Jupyter(Jupyter Keymap, Jupyter Notebook Renderers, Jupyter Notebook Renderers, Jupyter Cell Tags)
 - autoDocstring - Python Docstring Generator
-- modules yapf
+- modules yapf(vscode<1.80, settings.json -> "python.formatting.provider": "yapf")
 
 ## Markdown
 - Markdown All in One

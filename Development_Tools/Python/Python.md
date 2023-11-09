@@ -6,6 +6,11 @@ Generally, python is pre-install by linux system. And the version of pre-install
 | Ubuntu18.04 |   2.7   |   3.7   |
 | Ubuntu20.04 |   ❌    |   3.8   |
 
+## Builtin
+Install pip3
+```shell
+sudo apt install python3-pip
+```
 
 ## Conda
 During python development, a different version of python is needed.   
@@ -30,7 +35,8 @@ conda activate env_name
 #### Install modules in specific python environment 
 Make sure the specific python environment is activate
 ```shell
-conda install module_name
+conda install module_name # recommended
+pip install module_name # optional
 ```
 
 #### Auto enter another env
