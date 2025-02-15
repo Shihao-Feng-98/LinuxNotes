@@ -12,7 +12,7 @@ Divide a partition of > 60G in the position of the last disk
 - Select `other options` for manual partition
 - Manually partition:
   - 500M, `logical partition`, `space starting position`, `for EFI system partition`
-  - The size is generally 2 times the physical memory of the computer (50G), `primary partition`, `space starting position` `for SWAP`
+  - The size is generally 2 times the physical memory of the computer (no more than 16G), `primary partition`, `space starting position` `for SWAP`
   - 75G, `logical partition`, `space starting position`, `for ext4 journaling filesystem`, `the mount point is "/"`
   - The rest of the partition, `logical partition`, `space starting position`, `for ext4 journaling filesystem`, `the mount point is "/home"`
   - Device for boot loader installation, select 500M EFI partition
